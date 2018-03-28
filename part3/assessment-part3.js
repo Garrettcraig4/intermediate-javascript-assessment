@@ -14,7 +14,16 @@
 
 // CODE HERE...
 
+function callBinding(magicAnimals, updateAnimal, id) {
+  let res = "";
 
+  for (let i = 0; i < magicAnimals.length; i++) {
+    if (id === magicAnimals[i]) {
+      res = "Trogdor";
+    }
+  }
+  return updateAnimal("Trogdor");
+}
 
 // *************
 // * PROBLEM 2 *
@@ -29,7 +38,9 @@
 
 // CODE HERE...
 
-
+function applyBinding(magicAnimals, updateAnimal, id) {
+  for (let i = 0; i < magicAnimals.length; i++) {}
+}
 
 // *************
 // * PROBLEM 3 *
@@ -48,8 +59,6 @@
 var foo;
 
 // CODE HERE...
-
-
 
 // *************
 // * PROBLEM 4 *
